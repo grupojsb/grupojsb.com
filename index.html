@@ -7,39 +7,44 @@
   <title>Grupo JSB</title>
   <style>
     #main-logo {
+      position: absolute;
       left: 50%;
       margin-left: -60px;
       width: 120px;
       top: 40%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    #main-logo img {
+      width: 120px;
     }
     #first-logo {
+      position: absolute;
       left: 50%;
       margin-left: -40px;
       width: 80px;
       top: 20%;
     }
     #second-logo {
+      position: absolute;
       left: 25%;
       margin-left: -40px;
       width: 80px;
       top: 60%;
     }
     #third-logo {
+      position: absolute;
       left: 75%;
       margin-left: -40px;
       width: 80px;
       top: 60%;
     }
     
-    .centered {
-      position: absolute;
-      
-    }
-    
     .footer {
       position: absolute;
       bottom: 20px;
       text-align: center;
+      width: 99%;
     }
   </style>
 
@@ -47,9 +52,11 @@
 </head>
 
 <body>
-  <img src="img/helmet.svg" class="centered" id="main-logo">grupo JSB</img>
+  <div id="main-logo">
+  <img src="img/helmet.svg" ><br>Grupo JSB
+  </div>
   
-  <img src="img/zeppelin.svg" class="centered" id="first-logo" />
+  <img src="img/zeppelin.svg" id="first-logo" />
   <img src="img/balloon.svg" id="second-logo" />
   <img src="img/aeroplane.svg" id="third-logo" />
   
